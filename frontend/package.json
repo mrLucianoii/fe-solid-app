@@ -1,0 +1,24 @@
+{
+  "name": "mern-app",
+  "private": true,
+  "workspaces": [
+    "portals/dashboard",
+    "portals/homepage",
+    "atomic-ui"
+  ],
+  "scripts": {
+    "start:dashboard": "pnpm --filter @dashboard dev",
+    "start:homepage": "pnpm --filter @homepage dev",
+    "start:atomic-ui": "pnpm --filter @atomic-ui dev",
+    "format": "prettier --write \"{atomic-ui,portals/**/app}/**/*.{js,jsx,ts,tsx,css,scss,md}\""
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
+}

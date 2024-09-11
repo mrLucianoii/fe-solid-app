@@ -1,0 +1,57 @@
+.container-navbar {
+  background-color: #020202;
+
+  .p-menubar {
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    background-color: #020202;
+    border: none;
+    border-top: 0.5px solid #fff; // Change the color as needed
+    border-bottom: 1px solid #333333; // Change the color as needed
+    .p-menuitem-text,
+    .p-menuitem-icon {
+      //color: #fff !important;
+
+      &:hover {
+        //background-color: #E0BB07;
+      }
+    }
+    color: white;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+  }
+  .logo-savage {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 77px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-navbar .p-menubar {
+    justify-content: flex-start;
+    background: #020202;
+    li.home:hover {
+      background: #e0bb07 !important;
+      color: #020202 !important;
+    }
+    .p-menubar-root-list {
+      background: #020202;
+    }
+    &.p-menubar-button:hover {
+      color: #6b7280;
+      background: black;
+    }
+    ul.p-menubar-root-list li:hover {
+      background: #e0bb07 !important;
+      color: #020202 !important;
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+.layout-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+    .centered-child {
+        transform: translateY(-50%);
+    }
+}

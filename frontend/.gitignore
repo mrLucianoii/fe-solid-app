@@ -1,0 +1,13 @@
+# Ignore node_modules in any directory
+**/node_modules/
+frontend/node_modules/
+# Ignore .env files
+**/.env
+
+# Ignore build directories
+**/build/
+**/.next/
+**/dist/
+
+# Ignore log files
+*.log
