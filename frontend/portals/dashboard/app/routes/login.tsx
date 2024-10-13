@@ -14,7 +14,7 @@ const Login = () => {
   return (
     <LayoutCenter>
       <Card title="Restricted">
-        <h1>Octonions Ai  Login</h1>
+        <h1>Your Company LLC  Login</h1>
         <p>Authorized Personal Only</p>
         <AuthLogBtns />
       </Card>

@@ -10,7 +10,6 @@ type NavBarProps = {
 
 const HeaderPrimary = ({ logoSrc }: NavBarProps) => {
   const navigate = useNavigate();
-
   // Define menu items
   const items = [
     {
@@ -33,7 +32,7 @@ const HeaderPrimary = ({ logoSrc }: NavBarProps) => {
   return (
     <div className="container-navbar">
       <div className="logo-container">
-        <Image className={`logo-${businessName} logo`} src={logoSrc} />
+        <Image className={`logo`} src={logoSrc} />
       </div>
       <Menu className="main-nav" mode="horizontal" items={items} />
     </div>
